@@ -66,6 +66,7 @@ Manual B-input via DIP switches, Add/Subtract mode, producing a 0–5 V (0–255
 - **1 × 8-way SPDT DIP switch** (B-input bits)  
   _Example: [MCTIIR-08-T](https://www.newark.com/multicomp-pro/mctiir-08-t/switch-dip-8-position-spst-recessed/dp/74M3077)_
 - **1 × SPDT toggle** (Add/Subtract mode)  
+  _Example: [SLW-1276864-4A-D](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SLW-1276864-4A-D/21259972)_
 - **1 × Momentary pushbutton** (ADC reset)  
 - **1 × LDR** (~22 Ω bright, ~20 kΩ dark)  
 - **2 × Single LEDs** (Analog-Mid (ADC bit 7) + Carry/Borrow)  
