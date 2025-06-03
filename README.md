@@ -64,6 +64,7 @@ Manual B-input via DIP switches, Add/Subtract mode, producing a 0–5 V (0–255
 
 ### Switches & LEDs
 - **1 × 8-way SPDT DIP switch** (B-input bits)  
+  _Example: [MCTIIR-08-T](https://www.newark.com/multicomp-pro/mctiir-08-t/switch-dip-8-position-spst-recessed/dp/74M3077)_
 - **1 × SPDT toggle** (Add/Subtract mode)  
 - **1 × Momentary pushbutton** (ADC reset)  
 - **1 × LDR** (~22 Ω bright, ~20 kΩ dark)  
@@ -72,7 +73,7 @@ Manual B-input via DIP switches, Add/Subtract mode, producing a 0–5 V (0–255
   _Example: [Adafruit 10-Segment Light Bar Graph](https://www.adafruit.com/search?q=10%20Segment%20Light%20Bar%20Graph)_
 
 ### Power Modules
-- **2 × Buck converter (adjustable)**
+- **2 × Buck converter (adjustable)**  
   _Example: [eBoot MP1584EN DC-DC Buck Converter Kit (Amazon)](https://www.amazon.com/dp/B07RVG34WR)_  
 
 ---
