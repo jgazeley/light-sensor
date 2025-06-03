@@ -97,9 +97,12 @@ Manual B-input via DIP switches, Add/Subtract mode, producing a 0–5 V (0–255
   ![CircuitMaker High Output](https://github.com/user-attachments/assets/b648398c-ac91-49b3-8f65-481031cb5297)  
   *Figure: CircuitMaker schematic showing high output (5 V when LDR is ~22 Ω).*
 
-- **Development Board:** 
+- **Development:** 
   ![Development Board (Removable ICs)](https://github.com/user-attachments/assets/edcb489d-9dd9-4c5c-89e0-a1d4a312f3ea)  
 *Figure: Development board with removable IC sockets.*
+
+  ![Breadboard example](https://github.com/user-attachments/assets/c7d51383-466f-498e-878e-1c522cdfc30c)  
+*Figure: Working example on breadboards.*
 
 - **Soldered ICs:**  
   ![Final Board](https://github.com/user-attachments/assets/53a51b97-8dab-4410-94ed-47d69e763be2)  
