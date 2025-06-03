@@ -10,12 +10,12 @@ Manual B-input via DIP switches, Add/Subtract mode, producing a 0–5 V (0–255
 
 ## Overview
 
-- **Light → Voltage (Input A):**  
+- **Light to Voltage (Input A):**  
   - LDR in a Wheatstone bridge (along with three 22 kΩ resistors).  
   - **LM358** buffers and scales the bridge output so **0 V = dark** and **5 V = bright**.  
   - A **10 kΩ trim pot** plus an optional **100 Ω “pull-down”** ensures exact 0 V floor and 5 V ceiling.  
 
-- **Analog → Digital:**  
+- **Analog to Digital:**  
   - **ADC0804** (8-bit) reads the LM358 analog output (0–5 V) and outputs an 8-bit value (0…255).  
   - Three 100 pF capacitors (150 pF total) and a 10k resistor set the ADC clock.  
     _See typical applications on page 11 of [ADC0804 datasheet](https://www.ti.com/lit/ds/symlink/adc0804-n.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1748971369363&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fadc0804-n) (“Self-Clocking in Free-Running Mode”)._  
@@ -52,10 +52,9 @@ Manual B-input via DIP switches, Add/Subtract mode, producing a 0–5 V (0–255
   [LM158/LM358 datasheet (TI)](https://www.ti.com/lit/ds/symlink/lm158-n.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1748971372414&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm158-n)
 
 ### Resistors & Pots
-- **4 × 22 kΩ** (Wheatstone bridge)  
-- **1 × 20 kΩ trim pot** (bridge balance)  
-- **1 × 10 kΩ pot** (LM358 feedback adjust)  
-- **1 × 100 Ω** pull-down on LM358 output (for “knockoff” LM358)  
+- **3 × 22 kΩ** (Wheatstone bridge)  
+- **1 × 10 kΩ pot** (LM358 feedback adjustment, to pinpoint 5V high)  
+- **1 × 100 Ω** pull-down on LM358 output (hacky shit to force < 10 mV output)  
 - **4 × 100 kΩ & 2 × 10 kΩ** (op-amp inputs, feedback, ADC clock)  
 - **~26 × 330 Ω** (LED current-limiting resistors)
 
